@@ -5,8 +5,10 @@ Got inspired to create after visiting a casino
 You can hit and stand, when you stand the dealer takes cards until over value 16 or bust then the result is displayed.
 The code generates card decks values to match a real card deck for same odd and also the soft cards works as expected.
 
+
 <h4>How to play</h4>
 Download or pull this project and cmd to directory where you downloaded then type "Java -jar Blackjack.jar"
+
 
 <h4>Gameplay output</h4>
 
