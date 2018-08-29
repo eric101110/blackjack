@@ -1,4 +1,4 @@
-# Blackjack in console made with Java 
+# Blackjack
 
 Got inspired to create after visiting a casino
 
