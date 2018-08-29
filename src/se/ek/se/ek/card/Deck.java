@@ -10,7 +10,6 @@ public final class Deck {
     private final int DECK_AMOUNT = 1;
 
     private List<Card> cardDeck = new ArrayList<>();
-    private CardType[] cardTypes = new CardType[]{CardType.CLUB, CardType.DIAMOND, CardType.HEART, CardType.SPADE};
 
     public void createCardDeck() {
         int cardNumber = 1;
@@ -19,8 +18,7 @@ public final class Deck {
             for (int j = 0; j < DECK_SIZE; j++) {
                 if (cardNumber > 13) cardNumber = 1;
                 if (cardType > 3) cardType = 0;
-
-                cardDeck.add(new Card(cardNumber > 10 ? 10 : cardNumber, cardTypes[cardType]));
+                cardDeck.add(new Card(cardNumber > 10 ? 10 : cardNumber, CardType.values()[cardType]));
                 cardNumber++;
                 cardType++;
             }
