@@ -8,7 +8,7 @@ The code generates card decks values to match a real card deck for same odd and 
 <h4>How to play</h4>
 Download or pull this project and cmd to directory where you downloaded then type "Java -jar Blackjack.jar"
 
-<h4>Gameplay output:</h4>
+<h4>Gameplay output</h4>
 
 ```
 Dealer [4 ♠][3 ♥][8 ♠][1 ♠][6 ♦] Total:22
